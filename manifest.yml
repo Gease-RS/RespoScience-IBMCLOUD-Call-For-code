@@ -1,0 +1,18 @@
+applications:
+- buildpack: sdk-for-nodejs
+  command: npm start
+  domain: null
+  env:
+    OPTIMIZE_MEMORY: true
+  host: null
+  instances: 1
+  memory: 256MB
+  name: respscienceplatform
+  routes:
+  - route: respcience-platform.us-south.cf.appdomain.cloud
+  services:
+  - discovery-respscience-platform-fhktegk2lcqwrct-339
+  - cloudant-respscience-platform-q5cvr-0kiswsum2-4180
+  - cloudant-respscience-platform-q5cvr-0kiswsum2
+  - discovery-respscience-platform-fhktegk2lcqwrct
+  timeout: 180

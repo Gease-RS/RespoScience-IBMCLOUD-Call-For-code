@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "cloudant_url": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:url",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.url",
+      "env:service_cloudant:$.url",
+      "env:cloudant_url",
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "watson_discovery_apikey": {
+    "searchPatterns": [
+      "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:apikey",
+      "cloudfoundry:$['discovery'][0].credentials.apikey",
+      "env:service_watson_discovery:$.apikey",
+      "env:watson_discovery_apikey",
+      "file:/server/localdev-config.json:$.watson_discovery_apikey"
+    ]
+  },
+  "watson_discovery": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:url",
+        "cloudfoundry:watson_discovery",
+        "env:watson_discovery_credentials",
+        "file:/server/localdev-config.json:watson_discovery_credentials"
+      ]
+    }
+  },
+  "watson_discovery_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:iam_apikey_description",
+      "cloudfoundry:$['discovery'][0].credentials.iam_apikey_description",
+      "env:service_watson_discovery:$.iam_apikey_description",
+      "env:watson_discovery_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_apikey_description"
+    ]
+  },
+  "watson_discovery_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:iam_apikey_name",
+      "cloudfoundry:$['discovery'][0].credentials.iam_apikey_name",
+      "env:service_watson_discovery:$.iam_apikey_name",
+      "env:watson_discovery_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_apikey_name"
+    ]
+  },
+  "watson_discovery_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:iam_role_crn",
+      "cloudfoundry:$['discovery'][0].credentials.iam_role_crn",
+      "env:service_watson_discovery:$.iam_role_crn",
+      "env:watson_discovery_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_role_crn"
+    ]
+  },
+  "watson_discovery_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:iam_serviceid_crn",
+      "cloudfoundry:$['discovery'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_discovery:$.iam_serviceid_crn",
+      "env:watson_discovery_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_serviceid_crn"
+    ]
+  },
+  "watson_discovery_url": {
+    "searchPatterns": [
+      "user-provided:discovery-respscience-platform-fhktegk2lcqwrct-339:url",
+      "cloudfoundry:$['discovery'][0].credentials.url",
+      "env:service_watson_discovery:$.url",
+      "env:watson_discovery_url",
+      "file:/server/localdev-config.json:$.watson_discovery_url"
+    ]
+  },
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:apikey",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.apikey",
+      "env:service_cloudant:$.apikey",
+      "env:cloudant_apikey",
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:username",
+        "cloudfoundry:cloudant",
+        "env:cloudant_credentials",
+        "file:/server/localdev-config.json:cloudant_credentials"
+      ]
+    }
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:host",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.host",
+      "env:service_cloudant:$.host",
+      "env:cloudant_host",
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:iam_apikey_description",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_description",
+      "env:service_cloudant:$.iam_apikey_description",
+      "env:cloudant_iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:iam_apikey_name",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_name",
+      "env:service_cloudant:$.iam_apikey_name",
+      "env:cloudant_iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:iam_role_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_role_crn",
+      "env:service_cloudant:$.iam_role_crn",
+      "env:cloudant_iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:iam_serviceid_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_serviceid_crn",
+      "env:service_cloudant:$.iam_serviceid_crn",
+      "env:cloudant_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_password": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:password",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.password",
+      "env:service_cloudant:$.password",
+      "env:cloudant_password",
+      "file:/server/localdev-config.json:$.cloudant_password"
+    ]
+  },
+  "cloudant_port": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:port",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.port",
+      "env:service_cloudant:$.port",
+      "env:cloudant_port",
+      "file:/server/localdev-config.json:$.cloudant_port"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "user-provided:cloudant-respscience-platform-q5cvr-0kiswsum2-4180:username",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.username",
+      "env:service_cloudant:$.username",
+      "env:cloudant_username",
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  }
+}
